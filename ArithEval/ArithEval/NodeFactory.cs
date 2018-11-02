@@ -6,16 +6,36 @@ using System.Threading.Tasks;
 
 namespace ArithEval
 {
-    interface INodeFactory
+    class NodeFactory : INodeFactory
     {
-        Expr Number(int n);
+        public Expr Add(Expr e1, Expr e2)
+        {
+            // TODO
+            throw new NotImplementedException();
+        }
 
-        Expr Add(Expr e1, Expr e2);
+        public Expr Multiply(Expr e1, Expr e2)
+        {
+            // TODO
+            throw new NotImplementedException();
+        }
 
-        Expr Subtract(Expr e1, Expr e2);
+        public Expr Negate(Expr e1)
+        {
+            // TODO
+            throw new NotImplementedException();
+        }
 
-        Expr Multiply(Expr e1, Expr e2);
+        public Expr Number(int n)
+        {
+            // TODO
+            throw new NotImplementedException();
+        }
 
-        Expr Negate(Expr e1);
+        public Expr Subtract(Expr e1, Expr e2)
+        {
+            // TODO
+            throw new NotImplementedException();
+        }
     }
 }
