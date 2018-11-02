@@ -10,32 +10,27 @@ namespace ArithEval
     {
         public Expr Add(Expr e1, Expr e2)
         {
-            // TODO
-            throw new NotImplementedException();
+            return new AllExpr(1, e1, e2);
         }
 
         public Expr Multiply(Expr e1, Expr e2)
         {
-            // TODO
-            throw new NotImplementedException();
+            return new AllExpr(3, e1, e2);
         }
 
         public Expr Negate(Expr e1)
         {
-            // TODO
-            throw new NotImplementedException();
+            return new AllExpr(-1, e1);
         }
 
         public Expr Number(int n)
         {
-            // TODO
-            throw new NotImplementedException();
+            return new AllExpr(n);
         }
 
         public Expr Subtract(Expr e1, Expr e2)
         {
-            // TODO
-            throw new NotImplementedException();
+            return new AllExpr(2, e1, e2);
         }
     }
 }

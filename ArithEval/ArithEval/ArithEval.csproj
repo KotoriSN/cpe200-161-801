@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllExpr.cs" />
     <Compile Include="Expr.cs" />
     <Compile Include="INodeFactory.cs" />
     <Compile Include="NodeFactory.cs" />
